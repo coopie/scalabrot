@@ -1,5 +1,5 @@
 package presenters
 
 trait Presenter {
-  def present(grid: List[List[Double]]): Unit
+  def present(grid: Seq[Seq[Double]]): Unit
 }
